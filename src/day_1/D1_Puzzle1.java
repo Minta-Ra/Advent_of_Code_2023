@@ -1,12 +1,14 @@
+package day_1;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Puzzle1Application {
+public class D1_Puzzle1 {
     public static void main(String[] args) {
         try {
             int sum = 0;
-            File input = new File("src/input.txt");
+            File input = new File("/src/day_1/input.txt");
             Scanner scanner = new Scanner(input);
             while (scanner.hasNextLine()) {
                 String data = scanner.nextLine();
